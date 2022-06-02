@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-import home from './pages/home';
+
+import Inicio from './pages/inicio';
+import Login from './pages/login';
 import Agendamento from './pages/agendamento';
-import Ligin from './pages/ligin';
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
@@ -14,9 +15,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-        <Route path='/home' element={<home />} />
+        <Route path='/inicio' element={ < Inicio /> } />
+        <Route path='/login' element={ < Login /> } />
         <Route path='/agendamento' element={ < Agendamento /> } />
-        <Route path='/ligin' element={ < Ligin /> } />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

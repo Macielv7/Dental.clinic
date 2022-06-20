@@ -9,26 +9,25 @@ export default function index(){
         <nav>
             <ul class="loin">
                 <a href="/login">
-                    <input class="we" type="button" value="login" />
+                    <input class="loloe" type="button" value="LOGIN" />
                 </a>
             </ul>
-            <img src="/1650375712055.png" alt="" class="aa"/>
+            <img src="./1650375712055.png" alt="" class="aa"/>
         </nav>
     </header>
 <section>
 <div class="tudo">
         <div class="nome">
-            <img src="/soiso.png" alt=""/>
-
+            <img src="/lpo.png" alt=""/>
+        </div>
             <div class="op">
                 <h2 class="vv">Tudo começa <br/> com um belo <br/> sorriso</h2>
                 <a href="/agendamento">
-                    <input class="te" type="button" value="AGENDAMENTO" />
+                    <input class="agenda" type="button" value="AGENDAMENTO" />
                 </a>
                     
             </div>
 
-        </div>
         <div class="oi">
             <img src="/oi t.png" alt=""/>
         </div>
@@ -88,22 +87,12 @@ export default function index(){
     </div>
 </div>
 
-<div class="qwe">
-    <div class="ffo">
-        <img src="/Mapa-Dentista-Vila-Olímpia.jpg" alt="" class="mapa"/>
-    </div>
-    <div class="ssd">
-        <p>
-        Está com dúvidas? Não se preocupe, entre em contato que iremos esclarecê-las para você!
-        </p>
-        <img src="/insta.png" alt="" class="kjkj"/>
-        <img src="/png-transparent-computer-icons-whatsapp-whatsapp-cdr-text-logo-removebg-preview.png" alt="" class="jjj"/>
-    </div>
-</div>
 
-<div class="gg">
-    <div class="yt">
+
+<div class="video">
+    <div>
         
+        <h1>ndjbndbf</h1>
     </div>
 </div>
 

@@ -1,5 +1,6 @@
 .pages-inicio{
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -20,16 +21,14 @@ header {
 
 
 
-.we{
+.loloe{
     font-family: "fonte1";
     font-size: 20px;
-    color: #004866;
+    color: #ffffff;
     border: solid 2px;
-    background-color: #32cc7f;
+    background-color: #000000;
     border-radius: 20px;
-    width: 110px;
-    height: 35px;
-    margin-left: 175vh;
+   margin-left: 120vh;
 
     margin-top: -20px;
     font-family: "Montserrat",sans-serif;
@@ -48,11 +47,29 @@ header {
 
 .nome{
     display: flex;
-    height: 90vh;
-    margin-top: -20px;
-    margin-left: 66vh;
+    height: 50vh;
+    margin-left: 60vh;
+
 }
 
+.oi{
+    display: flex;
+    height: 20vh;
+    margin-top: 30vh;
+    margin-left: -30vh;
+ 
+
+}
+
+
+.video {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    background-image:"../../images/video.png";
+}
 
 
 .vv{
@@ -69,73 +86,39 @@ header {
     font-size: 40px;
 }
 
-.te{
+.agenda{
     font-family: "fonte1";
     font-size: 20px;
-    color: #004866;
+    color: #81d9ff;
+    background-color: aqua;
     border: solid 2px;
-    background: linear-gradient(to right bottom,#C5EBF3,#3294cc);
     border-radius: 20px;
-    width: 185px;
-    height: 45px;
-    margin-left: -71em;
-    margin-top: -17em;
+    width: 110px;
+    height: 35px;
 
-    cursor: pointer;
-    border: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transform: translateY(-7px);
-    box-shadow: 0px,8px,15px 
-        rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-
+    margin-top: -120px;
     font-family: "Montserrat",sans-serif;
-    font-style: normal;
-}
-
-
-
-@keyframes pulsate{
-    10%{
-        box-shadow: 
-        0 0 35px rgb(53, 19, 116),
-        0 0 50px rgb(32, 183, 194);
-    }
-}
-
-.te:hover{
-
-    animation: pulsate 6s
-    ease-in-out;
-
-    background: #2ceae5;
-    transform: translateY(-7px);
-    color: #fff;
-    box-shadow: 0px,8px,15px 
-        rgba(46,223,229,0.445);
-    
-}
-
-.oi{
-    display: flex;
-    margin-top: -24vh;
-    height: 29vh;
-    margin-left: -10vh;
 }
 
 .tudo{
-    background-image: url();
-    height: 100;
-    width: 230vh;
-    background-size: 250vh;
+    background-image: url("../../images/mlkjh.jpg");
+    background-size: 210vh;
 
-   
+    display: flex;
+    
+    
+    padding: 80px;
+    width: 180vh;
+    
+
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .tt{
     text-align: center;
-    margin-left: 120vh;
+    margin-left: 80vh;
     margin-top: -8vh;
 
     font-family: "Montserrat",sans-serif;
@@ -201,8 +184,9 @@ header {
 .ff{
     display: flex;
     background-color:#C5EBF3;
-    opacity: 0.5px;
     height: 55vh;
+
+    
 }
 
 .pi{
@@ -449,15 +433,7 @@ header {
     height: 90px;
 }
 
-.gg{
-    display: flex;
-    flex-direction: row;
-    background-color:#C5EBF3;
-    margin-top: 90px;
-    width: 205vh;
-    height: 45vh;
 
-}
 
 
 

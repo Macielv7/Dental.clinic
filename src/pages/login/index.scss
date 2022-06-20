@@ -3,16 +3,23 @@
     padding: 0;
 }
 .page-login{
-    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #5bb1e0;
 }
 
 .aa{
     display: flex;
     height: 60px;
-    margin-top: -54px;
+    margin-top: -68px;
+    margin-left: 70px;
+}
+
+.invalido{
+    text-align: center;
+    margin-top: 20px;
+    color: #dc2626;
+    display: flex;
+    font-family: "Montserrat",sans-serif;
     margin-left: 70px;
 }
 
@@ -28,25 +35,42 @@ input:invalid{
     100% {transform: translateX(0rem) }
 }
 
-.we{
+.e{
     font-family: "fonte1";
     font-size: 20px;
-    color: #004866;
+    color: #ffffff;
     border: solid 2px;
-    background-color: #3294cc;
+    background-color: #1a1616;
     border-radius: 20px;
-    width: 110px;
-    height: 35px;
-    margin-left: 175vh;
+   margin-left: 140vh;
 
-    margin-top: -20px;
+    margin-top: 10px;
     font-family: "Montserrat",sans-serif;
 }
 
-.we:hover{
-    transition: 9s; 
-    animation: pulsate 6s
-    ease-in-out;
+.zg{
+    display: flex;
+    height: 30px;
+    margin-left: 40vh;
+}
+
+.we {
+    display: flex;
+    flex-direction: column;
+}
+.we > div {
+    display: flex;
+    align-items: center;
+    
+    padding: 30px 70px;
+    font: 500 18px 'Inter';
+    color: #fff;
+
+    transition: .3s;
+    cursor: pointer;
+}
+.we > div:hover {
+    background-color: #A028E6;
 }
 
 header {
@@ -66,19 +90,21 @@ header {
 }
 
 
-.conteudo{
-    height: 100vh;
+.coonteudoo{
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    background-size: 210vh;
+    background-image: url(../../images/cirugia-1030x687.jpg);
+    background-color: #3294cc;
 }
-.conteudo-formulario{
+.conteudo-formularioo{
    position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: rgb(201, 28, 28);
+   background-color: rgb(255, 255, 255);
    height: 500px;
    width: 500px; 
    border-radius: 10px; 
@@ -103,7 +129,7 @@ header {
     border-radius: 30px;
     border: 1px solid black;
 }
-.bnt{
+.bntt{
     display: block;
     padding: 10px;
     width: 100px;
@@ -113,6 +139,19 @@ header {
     margin-top: 40px;
     margin-left: 95px;
     
+    background: linear-gradient(to bottom right,
+    rgb(1, 252, 252) 0%, rgb(78, 159, 235)40%, rgb(152, 1, 252) 60%, rgb(255, 0, 255) 100%);
+    
+
+    background-size: 200% 200%;
+    animation: gradientEffect 6s linear infinite alternate;
+}
+
+@keyframes gradientEffect{
+    from {background-position: 0 0;}
+    to {background-position: 100% ;}
+
+
 }
 .campo-checkbox{
     margin-top: 20px;

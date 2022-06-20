@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 
 
+import Home from './pages/home';
+import Arquivada from './pages/arquivada';
+import Adm from './pages/adm';
 import Inicio from './pages/inicio';
 import Login from './pages/login';
 import Agendamento from './pages/agendamento';
@@ -15,6 +17,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
+        <Route path='/home' element={ < Home /> } />
+        <Route path='/arquivada' element={ < Arquivada /> } />
+        <Route path='/adm' element={ < Adm /> } />
         <Route path='/inicio' element={ < Inicio /> } />
         <Route path='/login' element={ < Login /> } />
         <Route path='/agendamento' element={ < Agendamento /> } />

@@ -1,4 +1,5 @@
 import './index.scss';
+import { Link } from 'react-router-dom'
 
 
 export default function Index(){
@@ -8,9 +9,9 @@ export default function Index(){
            <header>
         <nav>
             <ul class="loin">
-                <a href="/login">
-                    <input class="loloe" type="button" value="LOGIN" />
-                </a>
+                <Link to="/login">
+                    <input className="loloe" type="button" value="LOGIN" />
+                </Link>
             </ul>
             <img src="./1650375712055.png" alt="" class="aa"/>
         </nav>
@@ -22,18 +23,16 @@ export default function Index(){
         </div>
             <div class="op">
                 <h2 class="vv">Tudo começa <br/> com um belo <br/> sorriso</h2>
-                <a href="/agendamento">
-                    <input class="agenda" type="button" value="AGENDAMENTO" />
-                </a>
-                    
+                                  
             </div>
-
         <div class="oi">
             <img src="/oi t.png" alt=""/>
         </div>
-    </div>
+</div>
 
-    <div class="pp">
+    <div class="pp"><Link to="/agendamento">
+                    <button className='agenda'>agendamento</button>
+                </Link> 
         <div class="tt">
             <h1>Especialidades</h1>
         </div>
@@ -91,7 +90,6 @@ export default function Index(){
 
 <div class="video">
     <div>
-        
         
     </div>
 </div>

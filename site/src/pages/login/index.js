@@ -26,6 +26,16 @@ async function entrarClick(){
         }            
 }
 
+function mostra(){
+    const senha = document.getElementById("senha");
+    if (senha.type=== "password") {
+        senha.type="text";
+        
+    }
+    else
+    senha.type="password"
+}
+
     return(
         <main className='pages-login'>
            
@@ -48,7 +58,10 @@ async function entrarClick(){
                 <label>
                     <input type="text" placeholder="Usuario"  class="campo" value={email} onChange={e => setEmail(e.target.value)}/>
            
-                    <input type="password" placeholder="Senha"  class="campo" value={senha} onChange={e => setSenha(e.target.value)}/>
+                    <input type="password" placeholder="Senha"  class="campo" value={senha} onChange={e => setSenha(e.target.value)} Id='senha'/>
+
+                    
+                    
                 </label>
                <input type="checkbox" class="campo-checkbox"/><span>Lembrar meus dados </span>
                
@@ -57,7 +70,6 @@ async function entrarClick(){
                 {erro}
             </div>
         </div>
-        
         </div>
     </div>
 

@@ -19,7 +19,11 @@ header {
 }
 
 
-
+.op{
+    
+    margin-top: -30em;
+    margin-left: 22vh;
+}
 
 .loloe{
     font-family: "fonte1";
@@ -41,8 +45,6 @@ header {
     height: 70px;
     margin-top: -73px;
     margin-left: 70px;
-
-
 }
 
 .nome{
@@ -54,9 +56,10 @@ header {
 
 .oi{
     display: flex;
-    margin-top: -58vh;
+    margin-top: -3vh;
     height: 20vh;
     margin-left: -12vh;
+    
 }
 
 
@@ -66,7 +69,7 @@ header {
     font-size: 40px;
     line-height: 50px;
     margin-top: 230px;
-    margin-left: -36em;
+    margin-left: -vh;
     color: #004866;
 
     font-family: "Montserrat",sans-serif;
@@ -78,20 +81,25 @@ header {
 .agenda{
     font-family: "fonte1";
     font-size: 20px;
-    color: #81d9ff;
-    background-color: aqua;
+    color: #1e6786;
+    background-color: rgb(58, 173, 240);
     border: solid 2px;
-    border-radius: 20px;
-    width: 110px;
+    border-radius: 15px;
+    width: 160px;
     height: 35px;
+    cursor: pointer;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 13rem;
 
-    margin-top: -120px;
+
+
     font-family: "Montserrat",sans-serif;
 }
 
 .tudo{
     background-image: url("../../images/mlkjh.jpg");
-    height: 60vh;
+    height: 59vh;
     width: 150vh;
     background-size: 210vh;
 }
@@ -113,6 +121,7 @@ header {
     justify-content: center;
     margin-top: 90px;
     padding: 80px;
+    margin-left: 10vh;
     
 
     font-family: "Montserrat",sans-serif;
@@ -125,15 +134,16 @@ header {
     justify-content: center;
     align-items: center;
 
-    margin-left: 23vh;
+    margin-left: 16vh;
 }
+
 
 .m{
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin-left: 33vh;
+    margin-left: 16vh;
 }
 
 .text{
@@ -146,8 +156,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -90px;
+    margin-top: 5px;
     padding: 80px;
+   
+    
 
     font-family: "Montserrat",sans-serif;
     font-style: normal;
@@ -155,18 +167,14 @@ header {
 }
 
 .quem{
-    display: flex;
-    
-    height: 55vh;
-    margin-left: -0px;
+    display: flex; 
+    height: 35vh;
 }
 
 .ff{
     display: flex;
     background-color:#C5EBF3;
-    height: 55vh;
-
-    
+    height: 35vh;
 }
 
 .pi{
@@ -228,6 +236,7 @@ header {
     text-align: center;
     letter-spacing: 0px;
     text-shadow: none;
+
 }
 
 .na{

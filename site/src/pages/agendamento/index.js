@@ -58,10 +58,10 @@ export default function Index(){
     </header>
 
                 <label>
-                    <input type="text" placeholder="nome completo" pattern="[a-zA-Z]*" class="campo" value={nome} onChange={e => setNome(e.target.value)}/>
+                    <input type="text" placeholder="Nome Completo"  class="campo" value={nome} onChange={e => setNome(e.target.value)}/>
                 </label>
                 <label>
-                    <input type="text" placeholder="gmail"  class="campo" value={email} onChange={e => setEmail(e.target.value)}/>
+                    <input type="text" placeholder="Dentalclinic@gmail.com"  class="campo" value={email} onChange={e => setEmail(e.target.value)}/>
                 </label>
                 <label>
                     <input type="number" placeholder="Telefone"  class="campo" value={telefone} onChange={e => setTelefone(e.target.value)}/>

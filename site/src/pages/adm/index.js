@@ -12,17 +12,11 @@ export default function Index() {
             <div className='container'>
               
             <div className='cabe'>
-                    <h1 className='titulo'>consultar marcadas</h1>
+                    <h1 className='titulo'>Consultas Marcadas</h1>
 
                 </div>
                 
                 <div className='coonteudo'>
-
-                
-
-               
-                       
-                
 
                 <div className='tabela'>
                     <p className='p'>NICOLAS OLIVEIRA SILVA</p>

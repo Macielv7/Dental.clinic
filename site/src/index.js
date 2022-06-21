@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 
-import Home from './pages/home';
+
 import Arquivada from './pages/arquivada';
 import Adm from './pages/adm';
 import Inicio from './pages/inicio';
@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-        <Route path='/home' element={ < Home /> } />
+        
         <Route path='/arquivada' element={ < Arquivada /> } />
         <Route path='/adm' element={ < Adm /> } />
         <Route path='/inicio' element={ < Inicio /> } />

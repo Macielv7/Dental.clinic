@@ -6,11 +6,11 @@ import 'react-toastify/dist/ReactToastify.css'
 
 
 
-export default function index(){
+export default function Index(){
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     const [telefone, setTelefone] = useState('');
-    const [data, setData] = useState('');
+    const [data, setData] = useState(0);
     
 
     async function salvarClick(){
@@ -20,7 +20,7 @@ export default function index(){
 
                 toast.dark('cadastro realizado!')
             }catch (err){
-                    toast.dark('err.response.data.erro')
+                    toast.dark('ops nao foi')
             }
     }
 
@@ -45,6 +45,17 @@ export default function index(){
                 <img src="./lili-removebg-preview.png" className=''/>
             </div>
         <div class="formulario">
+
+        <header>
+        <nav>
+            <ul class="loin">
+                <a href="/inicio">
+                    <input class="loloe" type="button" value="Home" />
+                </a>
+            </ul>
+            <img src="./1650375712055.png" alt="" class="aa"/>
+        </nav>
+    </header>
 
                 <label>
                     <input type="text" placeholder="nome completo" pattern="[a-zA-Z]*" class="campo" value={nome} onChange={e => setNome(e.target.value)}/>

@@ -4,12 +4,12 @@
     font: 600 16px 'Inter';
 
     
-    .container {
+.container {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
         width: 70vh;
-    }
+}
 
     .cabe{
         display: flex;
@@ -23,7 +23,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 30px;
-        margin-left: 80vh;
+        margin-left: 65vh;
     }
 
     .caixa-busca {

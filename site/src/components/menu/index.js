@@ -9,10 +9,7 @@ export default function Index() {
                 </div>
 
                 <div className='menu-items'>
-                    <div>
-                    <a href='/home'><img src="./icon-home.svg" alt="home" /></a>
-                        <div>Home</div>
-                    </div>
+                    
                     <div>
                     <a href='/adm'><img src="./icon-cadastrar.svg" alt="cadastrar" /></a>
                     <div>Consultas</div>

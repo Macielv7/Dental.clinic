@@ -1,16 +1,27 @@
-.pages-agendamento{
+.pages-login{
     margin: 0;
     padding: 0;
-
-    
 }
-.page-agendamento{
+.page-login{
     background-repeat: no-repeat;
     background-size: cover;
-
-    
 }
 
+.aa{
+    display: flex;
+    height: 60px;
+    margin-top: -68px;
+    margin-left: 70px;
+}
+
+.invalido{
+    text-align: center;
+    margin-top: 20px;
+    color: #dc2626;
+    display: flex;
+    font-family: "Montserrat",sans-serif;
+    margin-left: 70px;
+}
 
 input:invalid{
     animation: shake .2s ease-in-out 0s 2;
@@ -24,9 +35,44 @@ input:invalid{
     100% {transform: translateX(0rem) }
 }
 
+.e{
+    font-family: "fonte1";
+    font-size: 20px;
+    color: #ffffff;
+    border: solid 2px;
+    background-color: #1a1616;
+    border-radius: 20px;
+   margin-left: 120vh;
 
+    margin-top: 10px;
+    font-family: "Montserrat",sans-serif;
+}
 
+.zg{
+    display: flex;
+    height: 20px;
+    width: 20px;
+   
+}
 
+.we {
+    display: flex;
+    flex-direction: column;
+}
+.we > div {
+    display: flex;
+    align-items: center;
+    
+    padding: 30px 70px;
+    font: 500 18px 'Inter';
+    color: #fff;
+
+    transition: .3s;
+    cursor: pointer;
+}
+.we > div:hover {
+    background-color: #A028E6;
+}
 
 header {
     display: flex;
@@ -34,7 +80,7 @@ header {
     height: fit-content;
     height: 50px;
     width: 250vh;
-    background: #ffffff;
+    background: #af27af;
 
     background-color: #ffffff;
     opacity: 0.5;
@@ -45,59 +91,25 @@ header {
 }
 
 
-.conteudoo{
+.coonteudoo{
     height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-    
-
-     position:relative;
-
-     background: linear-gradient(to bottom right,
-    rgb(1, 252, 252) 0%, rgb(78, 159, 235)40%, rgb(152, 1, 252) 60%, rgb(255, 0, 255) 100%);
-    
-
-    background-size: 200% 200%;
-    animation: gradientEffect 6s linear infinite alternate;
+    background-size: 210vh;
+    background-image: url(../../images/cirugia-1030x687.jpg);
+    background-color: #3294cc;
 }
-
-@keyframes gradientEffect{
-    from {background-position: 0 0;}
-    to {background-position: 100% ;}
-}
-
-.novinho{
-    display: flex;
-    margin-top: -50vh;
-}
-
-.conteudo-formulario{
+.conteudo-formularioo{
    position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
    background-color: rgb(255, 255, 255);
    height: 500px;
-   width: 900px; 
+   width: 500px; 
    border-radius: 10px; 
 }
-
-.xaxa{
-    display: flex;
-    height: 60vh;
-    width: 60vh;
-}
-
-.zgk{
-    display: flex;
-    height: 60vh;
-    background-size: 30vh;
-}
-
-
 .img-dental{
     position: absolute;
     display: inline;
@@ -116,19 +128,20 @@ header {
     width: 250px;
     padding: 15px;
     border-radius: 30px;
-    border: 1px solid rgb(9, 127, 238);
+    border: 1px solid black;
 }
-.bnt{
+.bntt{
     display: block;
-    padding: 13px;
-    width: 110px;
+    padding: 10px;
+    width: 100px;
     border-radius: 30px;
-  
-    margin-top: 20px;
+    background-color: #5bb1e0;
+    border: 1px solid black;
+    margin-top: 40px;
     margin-left: 95px;
-
+    
     background: linear-gradient(to bottom right,
-    rgb(1, 252, 252) 0%, rgb(78, 159, 235)40%, rgb(152, 1, 252) 60%, rgb(255, 0, 255) 100%);
+    rgb(1, 252, 252) 0%, rgb(78, 159, 235)40%, rgb(1, 101, 252) 60%, rgb(255, 255, 255) 100%);
     
 
     background-size: 200% 200%;
@@ -137,21 +150,9 @@ header {
 
 @keyframes gradientEffect{
     from {background-position: 0 0;}
-    to {background-position: 100% ;}
-
+    to {background-position: 100% ;}    
 }
-
-
-
-
-.formulario{
-    display: block;
-    margin-left: -120vh;
-    margin-top: 05vh;
-}
-
 .campo-checkbox{
     margin-top: 20px;
     margin-right: 15px;
 }
-

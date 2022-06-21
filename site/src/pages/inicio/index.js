@@ -1,7 +1,7 @@
 import './index.scss';
 
 
-export default function index(){
+export default function Index(){
     return(
      <main className='pages-inicio'>
            
@@ -92,7 +92,7 @@ export default function index(){
 <div class="video">
     <div>
         
-        <h1>ndjbndbf</h1>
+        
     </div>
 </div>
 

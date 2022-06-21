@@ -49,27 +49,16 @@ header {
     display: flex;
     height: 50vh;
     margin-left: 60vh;
-
+    
 }
 
 .oi{
     display: flex;
+    margin-top: -58vh;
     height: 20vh;
-    margin-top: 30vh;
-    margin-left: -30vh;
- 
-
+    margin-left: -12vh;
 }
 
-
-.video {
-    position: relative;
-    height: 80vh;
-    overflow: hidden;
-    align-items: center;
-    display: flex;
-    background-image:"../../images/video.png";
-}
 
 
 .vv{
@@ -102,18 +91,9 @@ header {
 
 .tudo{
     background-image: url("../../images/mlkjh.jpg");
+    height: 60vh;
+    width: 150vh;
     background-size: 210vh;
-
-    display: flex;
-    
-    
-    padding: 80px;
-    width: 180vh;
-    
-
-    font-family: "Montserrat",sans-serif;
-    font-style: normal;
-    font-weight: 400;
 }
 
 .tt{
@@ -432,15 +412,3 @@ header {
     width: -90vh;
     height: 90px;
 }
-
-
-
-
-
-
-
-
-
-
-
-

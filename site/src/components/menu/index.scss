@@ -12,17 +12,16 @@
     justify-content: space-between;
 
     background: linear-gradient(to bottom right,
-    rgb(1, 252, 252) 0%, rgb(78, 159, 235)40%, rgb(152, 1, 252) 60%, rgb(255, 0, 255) 100%);
+    rgb(1, 252, 252) 0%, rgb(78, 159, 235)40%, rgb(1, 101, 252) 60%, rgb(255, 255, 255) 100%);
     
 
     background-size: 200% 200%;
     animation: gradientEffect 6s linear infinite alternate;
-
+}
 
 @keyframes gradientEffect{
     from {background-position: 0 0;}
-    to {background-position: 100% ;}
-
+    to {background-position: 100% ;}    
 }
 
     
@@ -76,4 +75,3 @@
         margin-right: 30px;
     }
 
-}

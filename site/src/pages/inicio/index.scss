@@ -421,3 +421,92 @@ header {
     width: -90vh;
     height: 90px;
 }
+
+.video{
+    background-image: url(../../images/dor.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 20vh;
+}
+
+.dor{
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    background-color: beige;
+    opacity: 0.5;
+    height: 60vh;
+    width: 70vh;
+
+    position: absolute;
+}
+
+.dente{
+    font-size: 45px;
+    box-sizing: border-box;
+
+
+}
+
+.testinho{
+    font-size: 20px;
+    line-height: 1;
+    box-sizing: border-box;
+
+    font-size: 1.75rem;
+
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    box-sizing: border-box;
+
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.çç{
+    margin-left: 10px;
+}
+
+.dorzi{
+    display: flex;
+    font-weight: 500;
+    color:beige;
+    font-size: 16px;
+    padding: 15px 30px;
+    margin-left: 20vh;
+    margin-top: 5vh;
+    background-color: #59B2E0;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.roda{
+    display: flex;
+    margin-top: 20vh;
+    background-color:#59B2E0;
+   height: 50vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.logo{
+    margin-top: 20vh;
+    display: flex;
+    height: 40vh;
+    width: 40vh;
+    align-items: center;
+    justify-content: center;
+}

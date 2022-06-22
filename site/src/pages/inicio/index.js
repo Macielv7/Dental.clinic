@@ -89,10 +89,19 @@ export default function Index(){
 
 
 <div class="video">
-    <div>
-        
+    <div class="dor">
+        <div class="çç">
+        <h1 class="dente">esta com dor <br/> de dente</h1>
+        <p class="testinho">A Biodontos conta com dentistas experientes e instalações modernas para realizar seu tratamento bucal. Da limpeza rotineira à tratamentos como canal, cirurgias buco-maxilar etc.</p>
+        <Link to="/agendamento">
+                    <button className='dorzi'>agendamento</button>
+                </Link> 
     </div>
 </div>
+</div>
+<div class="roda">
+        <img src='./1650375712055.png' class="logo"/>
+    </div>
 
         </main>
 

@@ -4,9 +4,8 @@ import './index.css';
 
 
 
-import Arquivada from './pages/arquivada';
 import Adm from './pages/adm';
-import Inicio from './pages/inicio';
+import Home from './pages/home';
 import Login from './pages/login';
 import Agendamento from './pages/agendamento';
 
@@ -18,9 +17,9 @@ root.render(
     <BrowserRouter>
     <Routes>
         
-        <Route path='/arquivada' element={ < Arquivada /> } />
+       
         <Route path='/adm' element={ < Adm /> } />
-        <Route path='/inicio' element={ < Inicio /> } />
+        <Route path='/' element={ < Home /> } />
         <Route path='/login' element={ < Login /> } />
         <Route path='/agendamento' element={ < Agendamento /> } />
     </Routes>

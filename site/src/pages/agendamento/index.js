@@ -1,90 +1,69 @@
 import './index.scss';
+
 import {useState} from 'react'
 import { cadastrarr } from '../../api/AgendamentoApi'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 
+import Header from '../../components/cabecario';
 
 
-export default function Index(){
+
+export default function Index() {
+
     const [nome, setNome] = useState('');
+    const [segundoNome, setSegundoNome] = useState('');
     const [email, setEmail] = useState('');
-    const [telefone, setTelefone] = useState('');
+    const [numero, setNumero] = useState('');
     const [data, setData] = useState(0);
     
 
     async function salvarClick(){
             try{
 
-                const r = await cadastrarr(nome,email,telefone,data);
+                const r = await cadastrarr(nome,segundoNome,email,numero,data);
 
-                toast.dark('cadastro realizado!')
+                toast.dark('Cadastro Realizado!')
             }catch (err){
-                    toast.dark('ops nao foi')
+                    toast.dark('Agendamento Não Realizado')
             }
     }
 
-    return(
+
+
+    return (
         <main className='pages-agendamento'>
             <ToastContainer/>
-          
-           <header>
-        <nav>
-            <ul class="e">
-                <a href="/inicio"> <img src="/icon-home.svg" alt="home"  class='zg'/></a>
+            <Header/>
+            <section className="contact" id="contact">
 
-            </ul>
-            <img src="./1650375712055.png" alt="" class="aa"/>
-        </nav>
-    </header>
+                <h1 className="heading">Marcar Seu Agendamento</h1>
 
-    
-    <div class="conteudoo">
-        <div class="conteudo-formulario">
-            <div  class="xaxa">
-                <img src="./lili-removebg-preview.png" className=''/>
-            </div>
-        <div class="formulario">
+                <div className='foor'>
 
-        <header>
-        <nav>
-            <ul class="loin">
-                <a href="/inicio">
-                    <input class="loloe" type="button" value="Home" />
-                </a>
-            </ul>
-            <img src="./1650375712055.png" alt="" class="aa"/>
-        </nav>
-    </header>
+                    <span>Primeiro Nome :</span>
+                    <div className="inputBox">
+                        <input type="text" placeholder=""value={nome} onChange={e => setNome(e.target.value)}/>
+                            <input type="text" placeholder=""value={segundoNome} onChange={e => setSegundoNome(e.target.value)}/>
+                            </div>
 
-                <label>
-                    <input type="text" placeholder="Nome Completo"  class="campo" value={nome} onChange={e => setNome(e.target.value)}/>
-                </label>
-                <label>
-                    <input type="text" placeholder="Dentalclinic@gmail.com"  class="campo" value={email} onChange={e => setEmail(e.target.value)}/>
-                </label>
-                <label>
-                    <input type="number" placeholder="Telefone"  class="campo" value={telefone} onChange={e => setTelefone(e.target.value)}/>
-                </label>
-                <label>
-                    <input type="date" placeholder="Data"  class="campo" value={data} onChange={e => setData(e.target.value)}/>
-                </label>
-                
-              <input type="button" value="Agendamento" class="bnt" onClick={salvarClick} />
-           
-                
+                            <span> Email :</span>
+                            <input type="email" placeholder="" className="box" value={email} onChange={e => setEmail(e.target.value)}/>
 
-</div>
+                                <span>Numero :</span>
+                                <input type="number" placeholder="" className="box" value={numero} onChange={e => setNumero(e.target.value)}/>
 
-               
+                                    <span>Data e Horario :</span>
+                                    <input type="datetime-local" className="box" value={data} onChange={e => setData(e.target.value)}/>
 
-              
-            
-        </div>
-       
-    </div>
+                    
+                                        <button className="btn" onClick={salvarClick}>Finalizar o Agendamento</button>
+
+                                        </div>
+
+                                    </section>
 
 
-        </main>
-   )    
+                                </main>
+                                )    
 }

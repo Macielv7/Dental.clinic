@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <h1>oie</h1>
 
-      <Link to='/inicio'>pages</Link>
+      <Link to='/home'>home</Link>
+      <Link to='/agendamento'>agendamento</Link>
 
     </div>
   );

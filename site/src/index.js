@@ -10,6 +10,7 @@ import Login from './pages/login';
 import Agendamento from './pages/agendamento';
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,9 +18,9 @@ root.render(
     <BrowserRouter>
     <Routes>
         
-       
+    <Route path='/' element={ < App /> } />
         <Route path='/adm' element={ < Adm /> } />
-        <Route path='/' element={ < Home /> } />
+        <Route path='/home' element={ < Home /> } />
         <Route path='/login' element={ < Login /> } />
         <Route path='/agendamento' element={ < Agendamento /> } />
     </Routes>

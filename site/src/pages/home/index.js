@@ -1,5 +1,5 @@
 import './index.scss';
-import { Link } from 'react-router-dom'
+
 
 import Sobre from "../../components/sobre"
 import Header from '../../components/cabecario';
@@ -13,7 +13,7 @@ export default function Index() {
 
                 <div className="content">
                     <h3>Faça O Seu Sorriso Brilhar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, dolores. Ad rerum eum assumenda mollitia autem quo nulla, consequatur quisquam est?</p>
+                    <p>Lorem ipsum dolor sit, adipisicing elit. Deleniti, dolores. Ad rerum eum assumenda mollitia autem quo nulla, consequatur quisquam est?</p>
                     <a href="agendamento" className="btn">Marcar Uma Consulta</a>
                 </div>
 

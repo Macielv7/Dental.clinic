@@ -25,9 +25,14 @@
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
-  background:#fff;
+ 
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   padding:2rem 9%;
+  background-color: #fff;
+
+  
+ 
+ 
 }
 
 .header .logo{
@@ -103,6 +108,7 @@
       top:99%; left:0; right:0;
       background:#fff;
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      opacity: 5;
   }
 
   .header .navbar.active{

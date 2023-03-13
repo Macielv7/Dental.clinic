@@ -1,40 +1,30 @@
-import React, { useState } from "react"
+
 import "./index.scss"
+import { Link } from 'react-router-dom';
 
-const Header = () => {
-  const [active, setActive] = useState("nav_menu")
-  const [icon, setIcon] = useState("nav_toggler")
-  const navToggle = () => {
-    if (active === "nav_menu") {
-      setActive("nav_menu nav_active")
-    } else setActive("nav_menu")
-
-    if (icon === "nav_toggler") {
-      setIcon("nav_toggler")
-    } else setIcon("nav_toggler")
-  }
+export default function Header() {
   return (
     <>
-     return (
-      <header class="header">
 
-     
-  
-      <a href="/" class="logo"> Dental clinic <i class="fas fa-mug-hot"></i> </a>
-  
-      <nav class="navbar" >
-          <a href="#home">home</a>
-          <a href="#about">about</a>
-          <a href="#menu">menu</a>
-          <a href="#review">review</a>
-          <a href="#book">book</a>
-      </nav>
-  
-      <a href="/agendamento" class="btn">Faça o seu agendamento</a>
-     
-  </header>
+      <header className="header">
+
+
+
+        <Link to='/' className="logo"> Dental clinic  </Link>
+
+        <nav className="navbar" >
+          <Link to="#home">home</Link>
+          <Link to="#about">sobre</Link>
+          <Link to="#menu">menu</Link>
+        
+          <Link to="#book">book</Link>
+        </nav>
+
+        <Link to='/agendamento' className="btn">Faça o seu agendamento</Link>
+
+      </header>
     </>
   )
-}
 
-export default Header
+
+}

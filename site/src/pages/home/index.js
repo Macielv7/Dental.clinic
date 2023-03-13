@@ -1,23 +1,25 @@
 import './index.scss';
-
+import { Link } from 'react-router-dom';
 
 import Sobre from "../../components/sobre"
 import Header from '../../components/cabecario';
+import Rodape from "../../components/rodape"
 
 
 export default function Index() {
     return (
         <main className='pages-inicio'>
-<Header/>
+            <Header />
             <section className="home" id="home">
 
                 <div className="content">
                     <h3>Faça O Seu Sorriso Brilhar</h3>
-                    <p>lrem ipsum dolor sit, adipisicing elit. Deleniti, dolores. Ad rerum eum assumenda mollitia autem quo nulla, consequatur quisquam est?</p>
-                    <a href="agendamento" className="btn">Marcar Uma Consulta</a>
+                    <p>Nosso espaço conta com ambientes cuidadosamente personalizados, aconchegantes e acolhedores, oferecendo ao paciente uma experiência agradável durante todas as fases do seu tratamento odontológico.</p>
+                    <Link to='/agendamento' className="btn">Marcar Uma Consulta</Link>
+
                 </div>
 
-                
+
 
             </section>
 
@@ -75,14 +77,14 @@ export default function Index() {
 
 
 
-           
-
-<Sobre/>
 
 
+            <Sobre />
 
 
-            
+
+
+<Rodape/>
 
 
         </main>

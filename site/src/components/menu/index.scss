@@ -1,0 +1,123 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        .menuuu{
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            padding: 10px 14px;
+            background:  #FFF;
+            transition: all 0.3s ease;
+            z-index: 100;  
+        }
+
+
+        .menuuu li{
+            height: 50px;
+            
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .menuuu header .image,
+        .menuuu .icon{
+            min-width: 60px;
+            border-radius: 6px;
+        }
+
+
+
+        .menuuu .text,
+        .menuuu .icon{
+            color: #707070;
+            transition: all 0.2s ease;
+        }
+
+        .menuuu header{
+            position: relative;
+        }
+
+        .menuuu header .image-text{
+            display: flex;
+            align-items: center;
+        }
+
+        header .image-text .name {
+            margin-top: 2px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        header .image-text .profession{
+            font-size: 16px;
+            margin-top: -2px;
+            display: block;
+        }
+
+        .menuuu header .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menuuu header .image img{
+            width: 40px;
+            border-radius: 6px;
+        }
+
+
+        .menuuu.close .toggle{
+            transform: translateY(-50%) rotate(0deg);
+        }
+
+        .menuuu .menu{
+            margin-top: 40px;
+        }
+
+        .menuuu li.search-box{
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+
+        .menuuu li a{
+            list-style: none;
+            height: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .menuuu li a:hover{
+            background-color:rgb(14, 0, 92);
+        }
+        .menuuu li a:hover .icon,
+        .menuuu li a:hover .text{
+            color:  #FFF;
+        }
+
+        .menuuu .menu-bar{
+            height: calc(100% - 55px);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow-y: scroll;
+        }
+        .menu-bar::-webkit-scrollbar{
+            display: none;
+        }

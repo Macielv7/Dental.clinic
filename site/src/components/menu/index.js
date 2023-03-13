@@ -1,32 +1,95 @@
+
+import {  Link } from 'react-router-dom';
+
 import './index.scss'
 
 export default function Index() {
+    
+    
+
     return (
-        <nav className="comp-menu">
-            <div>
-                <div className='logo'>
-                    <img src="./1650375712055.png" alt="logo" />
-                </div>
-
-                <div className='menu-items'>
+      
+        <nav className=" menuuu">
+        <header>
+            <div className="image-text">
+                <span className="image">
                     
-                    <div>
-                    <a href='/adm'><img src="./icon-cadastrar.svg" alt="cadastrar" /></a>
-                    <div>Consultas</div>
-                    </div>
-                    <div>
-                    <a href='/arquivada'><img src="./icon-consultar.svg" alt="consultar" /></a>
-                        <div>Consultas Arquivadas</div>
-                    </div>
+                </span>
+
+                <div className="text logo-text">
+                    <span className="name">Dental clinic</span>
+                    <span className="profession">administrativo</span>
                 </div>
             </div>
 
-            <div className='menu-items'>
-                <div>
-                <a href='/inicio'><img src="./icon-sair.svg" alt="consultar" /></a>
-                    <div>Sair</div>
-                </div>
+           
+        </header>
+
+        <div className="menu-bar">
+            <div className="menu">
+
+                <ul className="menu-links">
+                    <li className="nav-link">
+                    <Link to='/cadastrarp' >
+                            <i className='bx bx-home-alt icon' ></i>
+                            <span className="text nav-text">Dashboard</span>
+                            </Link>
+                    </li>
+
+                    
+
+                    <li className="nav-link">
+                    <Link to='/cadastrarp' >
+                            <i className='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span className="text nav-text">Cadastrar</span>
+                            </Link>
+                    </li>
+
+                    <li className="nav-link">
+                    <Link to='/consultarp' >
+                            <i className='bx bx-bell icon'></i>
+                            <span className="text nav-text">Consultar</span>
+                            </Link>
+                    </li>
+
+                    <li className="nav-link">
+                        <Link to="#">
+                            <i className='bx bx-pie-chart-alt icon' ></i>
+                            <span className="text nav-text">....</span>
+                        </Link>
+                    </li>
+
+                    <li className="nav-link">
+                        <Link to="#">
+                            <i className='bx bx-heart icon' ></i>
+                            <span className="text nav-text">.....</span>
+                        </Link>
+                    </li>
+
+                    <li className="nav-link">
+                        <Link to="#">
+                            <i className='bx bx-wallet icon' ></i>
+                            <span className="text nav-text">.....</span>
+                        </Link>
+                    </li>
+
+                </ul>
+            </div> 
+            <hr/>
+
+            <div className="bottom-content">
+                <li className="">
+                <Link to='/' >
+                        <i className='bx bx-log-out icon' ></i>
+                        <span className="text nav-text">Sair</span>
+                    </Link>
+                </li>
+
+                
             </div>
-        </nav>
+        </div>
+
+    </nav>
+
     )
 }
